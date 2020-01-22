@@ -3,7 +3,7 @@ import produce from 'immer'; // Manipulação de estado
 export default function cart(state = [], action) {
   // Só cai no reducer se a action for 'ADD_TO_CART'
   switch (action.type) {
-    case 'ADD_TO_CART':
+    case '@cart/ADD':
       return produce(state, draft => {
         const productIndex = draft.findIndex(p => p.id === action.product.id);
 
@@ -17,7 +17,7 @@ export default function cart(state = [], action) {
           });
         }
       });
-    case 'REMOVE_FROM_CART':
+    case '@cart/REMOVE':
       return produce(state, draft => {
         const productIndex = draft.findIndex(p => p.id === action.id);
 
