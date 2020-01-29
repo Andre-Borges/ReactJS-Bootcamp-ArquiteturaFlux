@@ -3,7 +3,7 @@
 - Projeto utilizando ReactJS e json-server.
 
 <h1 align="center" >  
-  <img src="/readme-assets/readme_img.png" width="500"/>
+  <img src="/readme-assets/readme_img.png" width="600"/>
 </h1>
 
 ## Configuração
@@ -16,9 +16,9 @@
   
 2. Inicie o server:
 
-```sh
-$ npx json-server server.json -p 3333
-```
+	```sh
+	$ npx json-server server.json -p 3333
+	```
   
 3. Rode o projeto:
 
