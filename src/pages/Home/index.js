@@ -29,6 +29,8 @@ class Home extends Component {
     const { addToCartRequest } = this.props; // dispatch (props) -> disparar as actions do Redux
 
     addToCartRequest(id);
+
+    // this.props.history.push('/cart'); // navegação utilizando React-Router-Dom por um método JavaScript
   };
 
   render() {
