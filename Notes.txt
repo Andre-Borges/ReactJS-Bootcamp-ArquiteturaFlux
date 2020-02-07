@@ -1,3 +1,4 @@
-npx json-server server.json -p 3333 -d 2000 -w 
+npx json-server server.json -p 3333 -w
+
 (-w restarta se tiver alteração);
-(-d -> delay nas chamadas a API);
+(-d -> delay nas chamadas a API -d 2000);
